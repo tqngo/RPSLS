@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Retro;
+    src: url(../assets/Retro_Gaming.ttf);
+}
+
+
+.pageOne {
+    background: url(../assets/Main.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.pageTwo {
+    background: url(../assets/gamemode.png) no-repeat center center fixed;
+    background-size:100%;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.pageThree {
+    background: url(../assets/game.png) no-repeat center center fixed;
+    background-size:100%;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.titleText {
+    text-align: center;
+    font-size: 100px;
+    font-family: Retro;
+    color: #FF5858;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 5px;
+
+}
+
+.titleBtn {
+    height: 770px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 50px;
+    font-family: Retro;
+
+}
+
+.btnTitle {
+    border: 0;
+    color: #E6A8A8;
+    background-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+.modeText {
+    font-size: 110px;
+    text-align: center;
+    font-family: Retro;
+}
+
+.divBox {
+    background-color: #D9d9d9;
+    padding: 10px 0px 10px 0px;
+    margin: 200px;
+    width: 600px;
+    height: 680px;
+}
+
+.gameText {
+    font-size: 50px;
+    font-family: Retro;
+    background-color: transparent;
+    border: 0px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    
+}
+
+.centerMe {
+    display: flex;
+    justify-content: center;
+}
+
+.lizardImg {
+    width:211px;
+    height:211px;
+    position: absolute;
+    margin: 110px 0px 0px 510px;
+    
+}
+
+.spockImg {
+    width: 289px;
+    height: 366px;
+    position: absolute;
+    margin: 220px 580px 0px 0px;
+    transform: rotate(-30deg);
+    z-index: -1;
+}
+
+.headText {
+    display: flex;
+    justify-content: end;
+    padding-right: 150px;
+}
+
+.headText2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.menuBtn {
+    font-size: 40px;
+    font-family: retro;
+    background-color: #B7FF95;
+}
+
+.playerText1 {
+    font-size: 75px;
+    font-family: Retro;
+    color: black;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    color: #FF0000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.playerText2 {
+    font-size: 75px;
+    font-family: Retro;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    color: #475aff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choiceBtn {
+    background-color: #ce8686;
+    border-radius: 50%;
+    height: 161px;
+    width: 161px;
+    margin-right: 20px;
+    
+}
+
+.choiceBtn2 {
+    background-color: #8fbde9;
+    border-radius: 50%;
+    height: 161px;
+    width: 161px;
+    margin-left: 20px;
+}
+
+.winText {
+    font-size: 75px;
+    font-family: Retro;
+    color: #FFBF00;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.player1Text {
+    font-size: 75px;
+    font-family: Retro;
+    text-align: center;
+    margin-top: 200px;
+    color: black;
+}
+
+
+.pageWin {
+    height: 100vh;
+    background-image: url(../assets/game.png);
+    background-size: cover; 
+
+}
+
